@@ -1,0 +1,34 @@
+body{
+  text-align:center;
+  font-family:Arial;
+  background:#222;
+  color:white;
+}
+
+#game{
+  width:400px;
+  height:400px;
+  background:#fff;
+  margin:auto;
+  position:relative;
+  border:3px solid black;
+}
+
+#player{
+  width:30px;
+  height:30px;
+  background:blue;
+  position:absolute;
+  left:10px;
+  top:10px;
+}
+
+#coin{
+  width:20px;
+  height:20px;
+  background:red;
+  border-radius:50%;
+  position:absolute;
+  left:300px;
+  top:200px;
+}
